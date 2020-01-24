@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TetrisFXProject.jnlp">
+  <information>
+    <title>TetrisFXProject</title>
+    <vendor>Sasha</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-ea "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TetrisFXProject.jar" size="21412" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="TetrisFXProject" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="tetris.TetrisFXProject"  name="TetrisFXProject" />
+  <update check="always"/>
+</jnlp>

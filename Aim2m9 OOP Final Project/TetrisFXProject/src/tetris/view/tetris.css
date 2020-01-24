@@ -1,0 +1,15 @@
+.board {
+    -fx-background-color: #212121;
+}
+
+.nextShape {
+    -fx-background-color: #212121;
+}
+
+.backgroundFond {
+    -fx-background-color: #E0CC33; 
+}
+
+.font {
+-fx-text-fill: #FFFFFF;
+}
